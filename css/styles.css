@@ -52,6 +52,9 @@ img {
   line-height: 0.93333;
   color: #173a56;
   margin-right: 237px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
 }
 
 .nav-list {
@@ -146,4 +149,156 @@ img {
   font-size: 16px;
   text-decoration: underline;
   color: #02897a;
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+.watch-btn-icon {
+  fill: #02897a;
+}
+
+/* product */
+.product {
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.product-title {
+  font-size: 32px;
+  text-align: center;
+  color: #22343d;
+  width: 535px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.product-list {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.product-item {
+  width: calc((100% - 90px) / 4);
+}
+
+.product-icon-wrap {
+  width: 54px;
+  height: 54px;
+  border-radius: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 26px;
+}
+.product-icon-wrap-first {
+  background: #02897a;
+}
+.product-icon-wrap-second {
+  background: #4d8dff;
+}
+.product-icon-wrap-third {
+  background: #740a76;
+}
+.product-icon-wrap-forth {
+  background: #f03e3d;
+}
+.product-icon {
+  fill: #fff;
+}
+
+.product-subtitle {
+  font-weight: 600;
+  font-size: 22px;
+  color: #22343d;
+  margin-bottom: 13px;
+}
+
+.product-text {
+  line-height: 1.625;
+}
+
+.product-btn {
+  border-radius: 4px;
+  min-width: 175px;
+  height: 53px;
+  background: #02897a;
+  border: none;
+  display: block;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+}
+/* support */
+.support {
+  padding: 50px 0;
+}
+
+.support .container {
+  display: flex;
+  gap: 84px;
+  align-items: center;
+}
+
+.support-title {
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+
+.support-title-part {
+    font-size: 32px;
+}
+
+.support-text {
+  line-height: 1.625;
+  margin-bottom: 30px;
+}
+
+.support-list {
+  display: flex;
+flex-direction: column;
+gap: 25px;
+}
+
+.support-item {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.support-icon-wrap {
+  border: 2.92px solid #fff;
+    border-radius: 14px;
+    width: 35px;
+    height: 35px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.support-icon-wrap-first {
+  background: #f90;
+}
+
+.support-icon {
+  fill: #fff;
+}
+
+.support-desc {
+  line-height: 1.625;
+  max-width: 385px;
+}
+
+.support-icon-wrap-second {
+  background: #f03e3d;
+}
+
+.support-icon-wrap-third {
+  background: #4d8dff;
 }
